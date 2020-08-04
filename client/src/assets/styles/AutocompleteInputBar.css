@@ -1,0 +1,95 @@
+.autocomplete {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.search-bar {
+  width: 819px;
+  height: 50px;
+  border-radius: 8px;
+  background: transparent;
+  border: 1px solid #999;
+  font-family: Segoe UI;
+  font-size: 20px;
+  text-align: start;
+  color: #707070;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+.options {
+  padding: 10px 2px 5px 54px;
+  width: 819px;
+  border-radius: 0px 0px 10px 10px;
+  background: #fafafa;
+  text-align: start;
+  font-weight: 500;
+  font-family: Segoe UI;
+  font-size: 20px;
+  color: #707070;
+}
+
+.home-page .autocomplete {
+  margin: 20px;
+}
+
+.search-icon {
+  height: 18px;
+  width: 18px;
+}
+
+.search-bar-with-icon {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.search-bar-with-icon input {
+  padding-left: 54px;
+}
+
+.search-bar-with-icon img {
+  position: absolute;
+  padding: 18px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.option-list {
+  position: absolute;
+  margin-top: 54px;
+}
+
+.result-page .autocomplete {
+  margin: 0px 30px;
+}
+
+.result-page .search-bar {
+  width: 600px;
+  height: 37px;
+  font-size: 16px;
+}
+
+.result-page .search-bar-with-icon img {
+  padding: 12px;
+}
+
+.result-page .search-bar-with-icon input {
+  padding-left: 42px;
+}
+
+.result-page .options {
+  padding: 10px 2px 5px 42px;
+  width: 600px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.result-page .option-list {
+  margin-top: 42px;
+}

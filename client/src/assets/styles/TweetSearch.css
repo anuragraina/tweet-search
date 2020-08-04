@@ -1,0 +1,26 @@
+.tweet-search {
+  display: flex;
+  align-items: center;
+  font-family: Muli;
+  font-weight: 900;
+  font-size: 36px;
+  color: #000;
+}
+
+.tweet-search span {
+  padding: 5px;
+}
+
+.result-page .tweet-search span {
+  padding: 3px;
+}
+
+.result-page .tweet-search {
+  font-size: 26px;
+  margin-right: 50px;
+}
+
+.result-page .tweet-search img {
+  height: 33px;
+  width: 40px;
+}

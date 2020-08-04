@@ -1,0 +1,81 @@
+.card {
+  width: 30%;
+  height: 270px;
+  float: left;
+  margin: 1.66%;
+  background: #fff;
+  font-family: Muli;
+  color: #000;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 28px;
+}
+
+.card-header {
+  display: flex;
+}
+
+.card-image {
+  border-radius: 50%;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 13px;
+}
+
+.user-name {
+  font-family: Muli;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: left;
+}
+
+.screen-name {
+  font-family: Muli;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: left;
+}
+
+.date {
+  margin-left: auto;
+  margin-top: 8px;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.card-text {
+  height: 130px;
+  padding-top: 10px;
+  display: flex;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: left;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 22px;
+  text-align: left;
+}
+
+.counts {
+  display: flex;
+  align-items: center;
+  margin-right: 35px;
+}
+
+.count-value {
+  margin-left: 8px;
+}
